@@ -35,3 +35,19 @@ The tool calculates a **strength score** based on how many of these criteria are
    ```bash
    git clone https://github.com/yourusername/password-strength-checker.git
    cd password-strength-checker
+
+2. **Run the Script**:
+   ```bash
+   python3 password_checker.py
+
+3. **Enter a Password**:
+ When prompted, enter the password you want to check.
+
+The tool will evaluate the password and display its strength.
+
+4. **Example**
+   ```bash
+   $ python3 password_checker.py
+Enter your password: MyP@ssw0rd123
+Your password strength is: Very Strong
+
